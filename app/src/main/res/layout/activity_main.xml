@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Microsoft Teams"
+        android:textAlignment="center"
+        android:textColor="#964FED"
+        android:textSize="28dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+
+            android:src="@drawable/mobileappteams_adobespark"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started with your school or"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#E2BDB7C5"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="personal Microsoft account"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#E2BDB7C5"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:paddingLeft="16dp"
+
+            android:background="@drawable/edit_text_background"
+            android:hint="Enter email, phone, or Skype"
+            android:textSize="15dp"
+            ></EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Sign in"
+            android:textSize="14dp"
+            android:textAllCaps="false"></Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get help with signing in"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#964FED"></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:text="Join a meeting"
+            android:textColor="#964FED"
+            android:textAllCaps="false"
+            android:background="@drawable/button_edit"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_edit"
+            android:drawableLeft="@drawable/ic_microsoft_5"
+            android:paddingLeft="80dp"
+            android:paddingRight="75dp"
+            android:text="Sign up for free"
+            android:textColor="#964FED"
+            android:textAllCaps="false"
+            ></Button>
+
+
+    </LinearLayout>
+</LinearLayout>
